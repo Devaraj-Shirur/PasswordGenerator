@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Maximized Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[After Deleting Remaining : ]]>
+    </line>
+    <line>
+      <![CDATA[NetFlix]]>
+    </line>
+    <line>
+      <![CDATA[Facebook]]>
+    </line>
+    <line>
+      <![CDATA[Hotstar]]>
+    </line>
+    <line>
+      <![CDATA[RedBus]]>
+    </line>
+    <line>
+      <![CDATA[Instagram]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-23T13:18:18 IST" name="Default suite" finished-at="2022-11-23T13:18:28 IST" duration-ms="9586">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T13:18:18 IST" name="Default test" finished-at="2022-11-23T13:18:28 IST" duration-ms="9586">
+      <class name="homePage.TC_HP_002">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:homePage.TC_HP_002@63b1d4fa]" started-at="2022-11-23T13:18:18 IST" name="launchTheBrowser" finished-at="2022-11-23T13:18:22 IST" duration-ms="3310" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Maximized Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="launchTheApplication()[pri:0, instance:homePage.TC_HP_002@63b1d4fa]" started-at="2022-11-23T13:18:22 IST" name="launchTheApplication" finished-at="2022-11-23T13:18:23 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheApplication -->
+        <test-method signature="DeleteTheSavedPasswordFromVault()[pri:0, instance:homePage.TC_HP_002@63b1d4fa]" started-at="2022-11-23T13:18:23 IST" name="DeleteTheSavedPasswordFromVault" finished-at="2022-11-23T13:18:27 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[After Deleting Remaining : ]]>
+            </line>
+            <line>
+              <![CDATA[NetFlix]]>
+            </line>
+            <line>
+              <![CDATA[Facebook]]>
+            </line>
+            <line>
+              <![CDATA[Hotstar]]>
+            </line>
+            <line>
+              <![CDATA[RedBus]]>
+            </line>
+            <line>
+              <![CDATA[Instagram]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteTheSavedPasswordFromVault -->
+        <test-method is-config="true" signature="closeTheApp()[pri:0, instance:homePage.TC_HP_002@63b1d4fa]" started-at="2022-11-23T13:18:27 IST" name="closeTheApp" finished-at="2022-11-23T13:18:28 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApp -->
+      </class> <!-- homePage.TC_HP_002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
